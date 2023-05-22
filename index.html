@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samrat Pushpendra - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(5, 5, 42);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(143, 143, 245);
+        font-size: 1.1rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+      .firstSection > div {
+        width: 40%;
+      }
+      .leftSection {
+        font-size: 3rem;
+      }
+      .leftSection .btn {
+        padding: 12px;
+        background-color: rgb(54, 54, 101);
+        color: white;
+        border-radius: 10px;
+        font-family: "Poppins", sans-serif;
+        cursor: pointer;
+      }
+      .leftSection .btn:hover {
+        color: rgb(137, 103, 137);
+        font-size: 1.1rem;
+      }
+      .leftSection .buttons {
+        padding: 50px 0;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+      .text-gray {
+        color: gray;
+      }
+      #element {
+        color: rgb(170, 107, 228);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        font-size: 1.9rem;
+        height: 80vh;
+      }
+      .secondSection .box {
+        background: white;
+        width: 82vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 105px;
+      }
+      main hr {
+        background-color: #9c97f1;
+        border: 0;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .image-top1 {
+        width: 80px;
+        position: relative;
+        top: -45px;
+        left: -40px;
+      }
+      .image-top2 {
+        width: 60px;
+        position: relative;
+        top: -35px;
+        left: -19px;
+        background-color: white;
+      }
+      .image-top3 {
+        width: 50px;
+        position: relative;
+        top: -52px;
+        left: -19px;
+      }
+      .image-top4 {
+        width: 55px;
+        position: relative;
+        top: -65px;
+        left: -19px;
+      }
+      .image-top5 {
+        width: 55px;
+        position: relative;
+        top: -60px;
+        left: -19px;
+      }
+      .image-top6 {
+        width: 55px;
+        position: relative;
+        top: -59px;
+        left: -19px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 20px;
+        width: 100px;
+        left: -30px;
+        font-size: 25px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 45px;
+        color: gray;
+        width: 200px;
+        font-size: 9px;
+        left: -30px;
+      }
+      footer {
+        background-color: #0e0e1a;
+      }
+   
+      .footer .footer-second li:hover {
+        color: aliceblue;
+        font-size: 1.1rem;
+      }
+      .footer .footer-third li:hover {
+        color: aliceblue;
+        font-size: 1.1rem;
+      }
+      .footer .footer-fourth li:hover {
+        color: aliceblue;
+        font-size: 1.1rem;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 223;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+      footer .footer-rights:hover {
+        color: beige;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Samrat's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/"> Home </a></li>
+            <li><a href="/"> About </a></li>
+            <li><a href="/"> Services </a></li>
+            <li><a href="/"> Projects </a></li>
+            <li><a href="contactme.html" target="_blank"> Contact Me </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is
+          <br />
+          <span class="purple"> Samrat Pushpendra </span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+           <a href="https://github.com/Samratpushpendra" target="_blank"> <button class="btn">Visit Github</button></a>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="devp.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray"> what I have done so far </span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top1" src="html.png" alt="" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam nesciunt reiciendis, nostrum sed dolorem neque nemo
+              provident corporis deserunt aspernatur exercitationem autem ullam
+              cupiditate aperiam! Suscipit omnis quae doloribus nihil!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top2" src="nodejs.png" alt="" />
+            <div class="vertical-title">Node.js Developer (2012-2014)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam nesciunt reiciendis, nostrum sed dolorem neque nemo
+              provident corporis deserunt aspernatur exercitationem autem ullam
+              cupiditate aperiam! Suscipit omnis quae doloribus nihil!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top3" src="Javascript.png" alt="" />
+            <div class="vertical-title">JavaScript Developer (2014-2016)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam nesciunt reiciendis, nostrum sed dolorem neque nemo
+              provident corporis deserunt aspernatur exercitationem autem ullam
+              cupiditate aperiam! Suscipit omnis quae doloribus nihil!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top4" src="microsoft.png" alt="" />
+            <div class="vertical-title">Frontend Developer (2016-2019)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam nesciunt reiciendis, nostrum sed dolorem neque nemo
+              provident corporis deserunt aspernatur exercitationem autem ullam
+              cupiditate aperiam! Suscipit omnis quae doloribus nihil!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top5" src="insta.png" alt="" />
+            <div class="vertical-title">Backend Developer (2019-2022)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam nesciunt reiciendis, nostrum sed dolorem neque nemo
+              provident corporis deserunt aspernatur exercitationem autem ullam
+              cupiditate aperiam! Suscipit omnis quae doloribus nihil!
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top6" src="google.png" alt="" />
+            <div class="vertical-title">FullStack Developer (2022-Present)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam nesciunt reiciendis, nostrum sed dolorem neque nemo
+              provident corporis deserunt aspernatur exercitationem autem ullam
+              cupiditate aperiam! Suscipit omnis quae doloribus nihil!
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Samrat's Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Blog</li>
+            <li>Youtube Channel</li>
+            <li>Service</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Privacy Policy</li>
+            <li>@copyright</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        www.samratsportfoilo.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Graphic Designer",
+          "Freelancer",
+          "Video Editor",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
